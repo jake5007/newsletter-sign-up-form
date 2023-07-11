@@ -20,7 +20,7 @@ const Message = ({ subToggle }) => {
           Thanks for subscribing!
         </h1>
         <p>
-          A confirmation email has been sent to {user.userEmail}. Please open it
+          A confirmation email has been sent to <strong>{user.userEmail}</strong>. Please open it
           and click the button inside to confirm your subscription.
         </p>
         <Button text="Dismiss message" onClick={handleClick} abs={true} />
